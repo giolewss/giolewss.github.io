@@ -1,0 +1,8 @@
+***Robofriends***
+- Warning: Each child in a list should have a unique "key" prop.
+      - key prop: React, Virtual DOM'da çalışırken bu Card'ların özel bir anahtarını(key) tutar.
+      - Bu key prop sayesinde React bu Card'ları takip eder ve değişiklikleri sadece ilgili bölümde yapar.
+      - Çünkü bu şekilde DOM'daki değişiklikler minimize edilerek daha performanslı uygulamalar geliştirir.
+      - Key değeri index gibi değer aldığında değişebilecek bir değer olmamalıdır. key değeri daha çok unique(benzersiz) id
+          gibi değerler olmamalıdır.
+      -
